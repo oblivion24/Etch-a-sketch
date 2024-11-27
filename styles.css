@@ -1,0 +1,39 @@
+
+ body {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+  margin: 0 auto;
+  
+}
+button{
+  height:50px;
+  width:100px;
+}
+div.container{
+  display: flex;
+  width: 800px;
+  height: 800px;
+  background-color: aliceblue;
+  align-items: center;
+  justify-content: center;
+  
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  flex: 1 1 0;
+}
+.row{
+  display: flex;
+  min-width: 5px;
+  min-height: 5px;
+  flex: 1 1 0;
+}
+.row:hover {
+  background-color: black;
+}
